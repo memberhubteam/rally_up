@@ -1,0 +1,74 @@
+{
+  "Result": {
+    "Id": 44830,
+    "Name": "Welcome",
+    "Url": "https://my.partnerdomain.com.com/377e62",
+    "CampaignSetupUrl": "https://my.partnerdomain.com.com/Campaigns/Setup/377e62",
+    "CampaignStatus": "Started",
+    "StartDateUtc": "2020/01/27 12:56:07",
+    "EndDateUtc": "2020/11/26 07:59:00",
+    "AmountRaised": 39,
+    "AmountRaisedInPeriod": 0,
+    "AmountGoal": null,
+    "GoalPeriod": null,
+    "TotalViews": 4,
+    "TotalSupporters": 3,
+    "OrganizationId": 2095441,
+    "OrganizationName": "canada CHANGED NAME",
+    "TimezoneName": "(GMT-08:00) Pacific Time (US & Canada)",
+    "UtcOffsetMinutes": -480,
+    "TimeRemainingMinutes": 0,
+    "ThumbnailUrl": "https://s3.amazonaws.com/rallyup-campaigns/RallyUpQA/2a29f2bfb1e97e2d36c13f0eb63cd1ac.jpg?width=7952&height=4474",
+    "CtaLabel": "Get Entries",
+    "ManagementPages": [
+      {
+        "Name": "Edit Sweepstakes",
+        "Url": "https://my.partnerdomain.com.com/Campaigns/Setup/377e62"
+      },
+      {
+        "Name": "View Donations",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/Contributions/377e62"
+      },
+      {
+        "Name": "Manage External Donations",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/ExternalContributions/377e62"
+      },
+      {
+        "Name": "Manage Promo Codes",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/DonorPromoCodes/Index/377e62"
+      },
+      {
+        "Name": "Manage Administrators",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/Administrators/377e62"
+      },
+      {
+        "Name": "Manage Updates",
+        "Url": "https://my.partnerdomain.com.com/377e62/Updates"
+      },
+      {
+        "Name": "Create Widget",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/WidgetWizard/377e62"
+      },
+      {
+        "Name": "View Participants",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/Members/377e62"
+      },
+      {
+        "Name": "Enter Mail-In Entries",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/SweepstakeOfflineEntries/377e62"
+      },
+      {
+        "Name": "Manage Sweepstakes Winners",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/SweepstakesWinners/377e62"
+      },
+      {
+        "Name": "View Teams",
+        "Url": "https://my.partnerdomain.com.com/Account/Organizer/Teams/377e62"
+      }
+    ],
+    "PrimaryCurrency": "USD",
+    "CurrencySymbol": "$",
+    "ProjectId": null,
+    "FundCode": null
+  }
+}

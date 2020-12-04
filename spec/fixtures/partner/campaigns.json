@@ -1,0 +1,353 @@
+{
+  "Result": {
+    "Items": [
+      {
+        "Id": 44841,
+        "Name": "Exporting",
+        "Url": "https://my.partnerdomain.com.com/697f9d",
+        "CampaignSetupUrl": "https://my.partnerdomain.com.com/Campaigns/Setup/697f9d",
+        "CampaignStatus": "Started",
+        "StartDateUtc": "2020/01/27 12:37:49",
+        "EndDateUtc": "2020/10/17 06:59:00",
+        "AmountRaised": 45,
+        "AmountRaisedInPeriod": 0,
+        "AmountGoal": null,
+        "GoalPeriod": null,
+        "TotalViews": 1,
+        "TotalSupporters": 3,
+        "OrganizationId": 2095441,
+        "OrganizationName": "canada CHANGED NAME",
+        "TimezoneName": "(GMT-08:00) Pacific Time (US & Canada)",
+        "UtcOffsetMinutes": -480,
+        "TimeRemainingMinutes": 183335,
+        "ThumbnailUrl": "https://s3.amazonaws.com/rallyup-campaigns/RallyUpQA/f4b34f8138c2e4a1b941c034857e4a65.jpg?width=1100&height=418",
+        "CtaLabel": "Register",
+        "ManagementPages": [
+          {
+            "Name": "Edit Campaign",
+            "Url": "https://my.partnerdomain.com.com/Campaigns/Setup/697f9d"
+          },
+          {
+            "Name": "View Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Contributions/697f9d"
+          },
+          {
+            "Name": "Manage External Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/ExternalContributions/697f9d"
+          },
+          {
+            "Name": "Manage Promo Codes",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/DonorPromoCodes/Index/697f9d"
+          },
+          {
+            "Name": "Manage Administrators",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Administrators/697f9d"
+          },
+          {
+            "Name": "Manage Updates",
+            "Url": "https://my.partnerdomain.com.com/697f9d/Updates"
+          },
+          {
+            "Name": "Create Widget",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/WidgetWizard/697f9d"
+          },
+          {
+            "Name": "View Event Registration",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/EventRegistrations/697f9d"
+          },
+          {
+            "Name": "View Participants",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Members/697f9d"
+          },
+          {
+            "Name": "View Teams",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Teams/697f9d"
+          },
+          {
+            "Name": "View Prize Winners",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/PrizeWinners/697f9d"
+          }
+        ],
+        "PrimaryCurrency": "USD",
+        "CurrencySymbol": "$",
+        "ProjectId": null,
+        "FundCode": null
+      },
+      {
+        "Id": 44830,
+        "Name": "Welcome",
+        "Url": "https://my.partnerdomain.com.com/377e62",
+        "CampaignSetupUrl": "https://my.partnerdomain.com.com/Campaigns/Setup/377e62",
+        "CampaignStatus": "Started",
+        "StartDateUtc": "2020/01/27 12:56:07",
+        "EndDateUtc": "2020/11/26 07:59:00",
+        "AmountRaised": 39,
+        "AmountRaisedInPeriod": 0,
+        "AmountGoal": null,
+        "GoalPeriod": null,
+        "TotalViews": 4,
+        "TotalSupporters": 3,
+        "OrganizationId": 2095441,
+        "OrganizationName": "canada CHANGED NAME",
+        "TimezoneName": "(GMT-08:00) Pacific Time (US & Canada)",
+        "UtcOffsetMinutes": -480,
+        "TimeRemainingMinutes": 0,
+        "ThumbnailUrl": "https://s3.amazonaws.com/rallyup-campaigns/RallyUpQA/2a29f2bfb1e97e2d36c13f0eb63cd1ac.jpg?width=7952&height=4474",
+        "CtaLabel": "Get Entries",
+        "ManagementPages": [
+          {
+            "Name": "Edit Sweepstakes",
+            "Url": "https://my.partnerdomain.com.com/Campaigns/Setup/377e62"
+          },
+          {
+            "Name": "View Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Contributions/377e62"
+          },
+          {
+            "Name": "Manage External Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/ExternalContributions/377e62"
+          },
+          {
+            "Name": "Manage Promo Codes",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/DonorPromoCodes/Index/377e62"
+          },
+          {
+            "Name": "Manage Administrators",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Administrators/377e62"
+          },
+          {
+            "Name": "Manage Updates",
+            "Url": "https://my.partnerdomain.com.com/377e62/Updates"
+          },
+          {
+            "Name": "Create Widget",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/WidgetWizard/377e62"
+          },
+          {
+            "Name": "View Participants",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Members/377e62"
+          },
+          {
+            "Name": "Enter Mail-In Entries",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/SweepstakeOfflineEntries/377e62"
+          },
+          {
+            "Name": "Manage Sweepstakes Winners",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/SweepstakesWinners/377e62"
+          },
+          {
+            "Name": "View Teams",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Teams/377e62"
+          }
+        ],
+        "PrimaryCurrency": "USD",
+        "CurrencySymbol": "$",
+        "ProjectId": null,
+        "FundCode": null
+      },
+      {
+        "Id": 44828,
+        "Name": "Item-specific sharing link",
+        "Url": "https://my.partnerdomain.com.com/6e23ef",
+        "CampaignSetupUrl": "https://my.partnerdomain.com.com/Campaigns/Setup/6e23ef",
+        "CampaignStatus": "Started",
+        "StartDateUtc": "2020/01/25 09:32:21",
+        "EndDateUtc": "2020/09/02 06:59:00",
+        "AmountRaised": 174,
+        "AmountRaisedInPeriod": 0,
+        "AmountGoal": null,
+        "GoalPeriod": null,
+        "TotalViews": 6,
+        "TotalSupporters": 0,
+        "OrganizationId": 2095441,
+        "OrganizationName": "canada CHANGED NAME",
+        "TimezoneName": "(GMT-08:00) Pacific Time (US & Canada)",
+        "UtcOffsetMinutes": -480,
+        "TimeRemainingMinutes": 118535,
+        "ThumbnailUrl": "https://s3.amazonaws.com/rallyup-campaigns/RallyUpQA/d5a78b8a8db6fa3a33b0f055afa23a46.jpg?width=799&height=450",
+        "CtaLabel": "Bid",
+        "ManagementPages": [
+          {
+            "Name": "Edit Auction",
+            "Url": "https://my.partnerdomain.com.com/Campaigns/Setup/6e23ef"
+          },
+          {
+            "Name": "View Payments",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Contributions/6e23ef"
+          },
+          {
+            "Name": "Manage External Payments",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/ExternalContributions/6e23ef"
+          },
+          {
+            "Name": "Manage Administrators",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Administrators/6e23ef"
+          },
+          {
+            "Name": "Manage Updates",
+            "Url": "https://my.partnerdomain.com.com/6e23ef/Updates"
+          },
+          {
+            "Name": "Create Widget",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/WidgetWizard/6e23ef"
+          },
+          {
+            "Name": "View Auction Bids",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Bids/6e23ef"
+          }
+        ],
+        "PrimaryCurrency": "USD",
+        "CurrencySymbol": "$",
+        "ProjectId": null,
+        "FundCode": null
+      },
+      {
+        "Id": 44824,
+        "Name": "Quantity",
+        "Url": "https://my.partnerdomain.com.com/500b8d",
+        "CampaignSetupUrl": "https://my.partnerdomain.com.com/Campaigns/Setup/500b8d",
+        "CampaignStatus": "Started",
+        "StartDateUtc": "2020/01/23 11:01:16",
+        "EndDateUtc": "2020/10/16 06:59:00",
+        "AmountRaised": 472,
+        "AmountRaisedInPeriod": 0,
+        "AmountGoal": null,
+        "GoalPeriod": null,
+        "TotalViews": 8,
+        "TotalSupporters": 11,
+        "OrganizationId": 2095441,
+        "OrganizationName": "canada CHANGED NAME",
+        "TimezoneName": "(GMT-08:00) Pacific Time (US & Canada)",
+        "UtcOffsetMinutes": -480,
+        "TimeRemainingMinutes": 181895,
+        "ThumbnailUrl": "https://s3.amazonaws.com/rallyup-campaigns/RallyUpQA/b8f36c27f96a1514551774cfda0f0ad4.jpg?width=2500&height=950",
+        "CtaLabel": "Contribute",
+        "ManagementPages": [
+          {
+            "Name": "Edit Campaign",
+            "Url": "https://my.partnerdomain.com.com/Campaigns/Setup/500b8d"
+          },
+          {
+            "Name": "View Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Contributions/500b8d"
+          },
+          {
+            "Name": "Manage External Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/ExternalContributions/500b8d"
+          },
+          {
+            "Name": "Manage Check Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/ManualContributions/500b8d"
+          },
+          {
+            "Name": "Manage Promo Codes",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/DonorPromoCodes/Index/500b8d"
+          },
+          {
+            "Name": "Manage Administrators",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Administrators/500b8d"
+          },
+          {
+            "Name": "Manage Updates",
+            "Url": "https://my.partnerdomain.com.com/500b8d/Updates"
+          },
+          {
+            "Name": "Create Widget",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/WidgetWizard/500b8d"
+          },
+          {
+            "Name": "View Participants",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Members/500b8d"
+          },
+          {
+            "Name": "View Teams",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Teams/500b8d"
+          },
+          {
+            "Name": "View Prize Winners",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/PrizeWinners/500b8d"
+          }
+        ],
+        "PrimaryCurrency": "USD",
+        "CurrencySymbol": "$",
+        "ProjectId": null,
+        "FundCode": null
+      },
+      {
+        "Id": 44821,
+        "Name": "Delivery",
+        "Url": "https://my.partnerdomain.com.com/614006",
+        "CampaignSetupUrl": "https://my.partnerdomain.com.com/Campaigns/Setup/614006",
+        "CampaignStatus": "Started",
+        "StartDateUtc": "2020/01/23 09:13:46",
+        "EndDateUtc": "2020/10/29 06:59:00",
+        "AmountRaised": 27,
+        "AmountRaisedInPeriod": 0,
+        "AmountGoal": null,
+        "GoalPeriod": null,
+        "TotalViews": 4,
+        "TotalSupporters": 2,
+        "OrganizationId": 2095441,
+        "OrganizationName": "canada CHANGED NAME",
+        "TimezoneName": "(GMT-08:00) Pacific Time (US & Canada)",
+        "UtcOffsetMinutes": -480,
+        "TimeRemainingMinutes": 200615,
+        "ThumbnailUrl": "https://s3.amazonaws.com/rallyup-campaigns/RallyUpQA/b94d0b64d532ebd0e872cf5a8dccd31a.jpg?width=1100&height=418",
+        "CtaLabel": "Buy Sweets",
+        "ManagementPages": [
+          {
+            "Name": "Edit Campaign",
+            "Url": "https://my.partnerdomain.com.com/Campaigns/Setup/614006"
+          },
+          {
+            "Name": "View Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Contributions/614006"
+          },
+          {
+            "Name": "Manage External Donations",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/ExternalContributions/614006"
+          },
+          {
+            "Name": "Manage Promo Codes",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/DonorPromoCodes/Index/614006"
+          },
+          {
+            "Name": "Manage Administrators",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Administrators/614006"
+          },
+          {
+            "Name": "Manage Updates",
+            "Url": "https://my.partnerdomain.com.com/614006/Updates"
+          },
+          {
+            "Name": "Create Widget",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/WidgetWizard/614006"
+          },
+          {
+            "Name": "View Participants",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Members/614006"
+          },
+          {
+            "Name": "View Teams",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/Teams/614006"
+          },
+          {
+            "Name": "View Treasure Winners",
+            "Url": "https://my.partnerdomain.com.com/Account/Organizer/PrizeWinners/614006"
+          }
+        ],
+        "PrimaryCurrency": "USD",
+        "CurrencySymbol": "$",
+        "ProjectId": null,
+        "FundCode": null
+      }
+    ],
+    "Count": 5,
+    "PageIndex": 1,
+    "PageSize": 100,
+    "TotalCount": 5,
+    "TotalPages": 1,
+    "HasPreviousPage": false,
+    "HasNextPage": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Result": {
+    "Id": 12345,
+    "Ein": null,
+    "Name": "An Organization",
+    "CommonName": "An Organization",
+    "Email": null,
+    "Url": "https://{{PartnerDomain}}/home/a123bc",
+    "IsTaxExempt": true,
+    "Address": {
+      "AddressLine1": null,
+      "AddressLine2": null,
+      "City": null,
+      "State": null,
+      "Country": "US",
+      "ZipCode": null,
+      "Phone": null
+    },
+    "OrganizationLogoUrl": null,
+    "OrganizationWebsiteUrl": null,
+    "OrganizationFacebookUrl": null,
+    "OrganizationTwitterUrl": null,
+    "PrimaryCurrency": "USD"
+  }
+}

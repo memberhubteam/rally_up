@@ -5,14 +5,25 @@ RSpec.describe RallyUp::Partner do
     before { RallyUp::Partner.domain = 'my.partnerdomain.com' }
 
     it 'makes HTTP GET request with appropriate headers' do
-      stub_request(:get, 'https://my.partnerdomain.com/v1/hello')
+      stub_request(:get, 'https://my.partnerdomain.com/v1/hello?test=me')
+        .with(
+          headers: { 'Host' => 'my.partnerdomain.com' }
+        )
+        .to_return(status: 200, body: {}.to_json, headers: {})
+
+      request = RallyUp::Partner.get('/v1/hello', params: { test: 'me' })
+      expect(request.code).to eq(200)
+    end
+
+    it 'makes HTTP POST request with appropriate headers' do
+      stub_request(:post, 'https://my.partnerdomain.com/v1/hello')
         .with(
           body: 'test=me',
           headers: { 'Host' => 'my.partnerdomain.com' }
         )
         .to_return(status: 200, body: {}.to_json, headers: {})
 
-      request = RallyUp::Partner.get('/v1/hello', params: { test: 'me' })
+      request = RallyUp::Partner.post('/v1/hello', params: { test: 'me' })
       expect(request.code).to eq(200)
     end
   end

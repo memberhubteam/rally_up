@@ -30,7 +30,7 @@ module RallyUp
     end
 
     def request(method, path, domain: 'go.rallyup.com', params: {}, headers: {})
-      request_params = method == :get ? { body: URI.encode_www_form(params) } : { json: params }
+      request_params = method == :get ? { params: params } : { body: URI.encode_www_form(params) }
       response = HTTP.headers(headers).send(method, "https://#{domain}#{path}", request_params)
       verify!(response)
       response

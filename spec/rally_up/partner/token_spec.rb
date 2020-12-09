@@ -20,8 +20,8 @@ RSpec.describe RallyUp::Partner::Token do
       }
     end
 
-    it 'makes HTTP GET request and renders Token' do
-      stub_request(:get, 'https://my.partnerdomain.com/v1/partnertoken')
+    it 'makes HTTP POST request and renders Token' do
+      stub_request(:post, 'https://my.partnerdomain.com/v1/partnertoken')
         .with(
           body: 'grant_type=password&username=l0gin&password=s3cr3t',
           headers: { 'Host' => 'my.partnerdomain.com' }
@@ -39,14 +39,14 @@ RSpec.describe RallyUp::Partner::Token do
     end
 
     it 'will not set token' do
-      stub_request(:get, 'https://my.partnerdomain.com/v1/partnertoken')
+      stub_request(:post, 'https://my.partnerdomain.com/v1/partnertoken')
         .with(
           body: 'grant_type=password&username=l0gin&password=s3cr3t',
           headers: { 'Host' => 'my.partnerdomain.com' }
         )
         .to_return(status: 200, body: json.to_json, headers: {})
 
-      token = RallyUp::Partner::Token.retrieve(set: false)
+      RallyUp::Partner::Token.retrieve(set: false)
       expect(RallyUp::Partner.token).to eq(nil)
     end
   end

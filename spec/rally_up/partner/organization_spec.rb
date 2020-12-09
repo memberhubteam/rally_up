@@ -18,6 +18,17 @@ RSpec.describe RallyUp::Partner::Organization do
       organizations = RallyUp::Partner::Organization.list
       expect(organizations.items.count).to eq(100)
     end
+
+    it 'makes HTTP GET request and renders Organizations - with params' do
+      stub_request(:get, 'https://my.partnerdomain.com/v1/partnerapi/organizations?endDate=2020-01-31&startDate=2020-01-01')
+        .with(
+          headers: { 'Host' => 'my.partnerdomain.com', 'Authorization' => 'Bearer tok3n' }
+        )
+        .to_return(status: 200, body: organizations, headers: {})
+
+      organizations = RallyUp::Partner::Organization.list(start_date: '2020-01-01', end_date: '2020-01-31')
+      expect(organizations.items.count).to eq(100)
+    end
   end
 
   describe '#retrieve' do

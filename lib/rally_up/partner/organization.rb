@@ -27,10 +27,10 @@ module RallyUp
 
       class << self
         def approve(id)
-          json = RallyUp::Partner.json(:post, '/v1/partnerapi/approvecustomorg', params: {
-                                         OrganizationID: id
-                                       })
-          new(json[:Result].to_h)
+          RallyUp::Partner.request(:post, '/v1/partnerapi/approvecustomorg', params: {
+                                     OrganizationID: id
+                                   })
+          new(Id: id)
         end
 
         def create(attrs = {})

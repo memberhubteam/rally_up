@@ -15,7 +15,10 @@ module RallyUp
           path,
           domain: domain,
           params: params,
-          headers: headers.merge('Authorization' => "Bearer #{RallyUp::Partner.token}")
+          headers: headers.merge(
+            'Authorization' => "Bearer #{RallyUp::Partner.token}",
+            'Content-Type' => 'application/x-www-form-urlencoded'
+          )
         )
       end
     end

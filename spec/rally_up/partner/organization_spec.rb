@@ -17,10 +17,10 @@ RSpec.describe RallyUp::Partner::Organization do
           headers: { 'Host' => 'my.partnerdomain.com', 'Authorization' => 'Bearer tok3n' },
           body: "OrganizationID=#{id}"
         )
-        .to_return(status: 200, body: organization, headers: {})
+        .to_return(status: 200, body: '', headers: {})
 
       organization = RallyUp::Partner::Organization.approve(id)
-      expect(organization.id).to eq(12_345)
+      expect(organization.id).to eq(id)
     end
   end
 

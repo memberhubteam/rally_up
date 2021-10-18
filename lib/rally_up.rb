@@ -52,6 +52,7 @@ module RallyUp
 
   class Error < StandardError
     attr_accessor :code, :body
+
     def initialize(response)
       @body = response.body
       @code = response.code

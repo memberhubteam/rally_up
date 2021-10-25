@@ -1,0 +1,22 @@
+{
+  "Result": {
+    "Items": [
+      {
+        "UserID": 116336,
+        "FirstName": "Tom",
+        "LastName": "Smith",
+        "Email": "tomsmith@gmail.com",
+        "Role": "Administrator",
+        "CreatedDate": "2020/03/30 22:34:56",
+        "AddedDate": null
+      }
+    ],
+    "Count": 1,
+    "PageIndex": 1,
+    "PageSize": 100,
+    "TotalCount": 1,
+    "TotalPages": 1,
+    "HasPreviousPage": false,
+    "HasNextPage": false
+  }
+}

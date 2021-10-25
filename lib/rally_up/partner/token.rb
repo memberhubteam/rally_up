@@ -17,7 +17,7 @@ module RallyUp
 
       class << self
         def retrieve(set: true)
-          json = RallyUp::Partner.json(:get, '/v1/partnertoken', params: {
+          json = RallyUp::Partner.json(:post, '/v1/partnertoken', params: {
                                          grant_type: 'password',
                                          username: RallyUp::Partner.login,
                                          password: RallyUp::Partner.secret

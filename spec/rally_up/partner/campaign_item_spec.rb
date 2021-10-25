@@ -10,9 +10,8 @@ RSpec.describe RallyUp::Partner::CampaignItem do
 
   describe '#list' do
     it 'makes HTTP GET request and renders Campaign Items with campaignID' do
-      stub_request(:get, 'https://my.partnerdomain.com/v1/partnerapi/campaignitems')
+      stub_request(:get, 'https://my.partnerdomain.com/v1/partnerapi/campaignitems?campaignID=1')
         .with(
-          body: 'campaignID=1',
           headers: { 'Host' => 'my.partnerdomain.com', 'Authorization' => 'Bearer tok3n' }
         ).to_return(status: 200, body: campaignitems, headers: {})
 

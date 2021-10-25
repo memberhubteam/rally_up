@@ -15,7 +15,10 @@ module RallyUp
           path,
           domain: domain,
           params: params,
-          headers: headers.merge('Authorization' => "Bearer #{RallyUp::Partner.token}")
+          headers: headers.merge(
+            'Authorization' => "Bearer #{RallyUp::Partner.token}",
+            'Content-Type' => 'application/x-www-form-urlencoded'
+          )
         )
       end
     end
@@ -26,3 +29,4 @@ require 'rally_up/partner/token'
 require 'rally_up/partner/campaign'
 require 'rally_up/partner/campaign_item'
 require 'rally_up/partner/organization'
+require 'rally_up/partner/user'

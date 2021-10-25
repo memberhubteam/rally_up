@@ -11,9 +11,8 @@ RSpec.describe RallyUp::Partner::Campaign do
 
   describe '#list' do
     it 'makes HTTP GET request and renders Campaigns' do
-      stub_request(:get, 'https://my.partnerdomain.com/v1/partnerapi/campaigns')
+      stub_request(:get, 'https://my.partnerdomain.com/v1/partnerapi/campaigns?organizationID=1')
         .with(
-          body: 'organizationID=1',
           headers: { 'Host' => 'my.partnerdomain.com', 'Authorization' => 'Bearer tok3n' }
         ).to_return(status: 200, body: campaigns, headers: {})
 
@@ -22,9 +21,8 @@ RSpec.describe RallyUp::Partner::Campaign do
     end
 
     it 'makes HTTP GET request and renders Campaigns with allowed parameters' do
-      stub_request(:get, 'https://my.partnerdomain.com/v1/partnerapi/campaigns')
+      stub_request(:get, 'https://my.partnerdomain.com/v1/partnerapi/campaigns?organizationID=1&endDate=2020-01-24&startDate=2020-01-01')
         .with(
-          body: 'organizationID=1&endDate=2020-01-24&startDate=2020-01-01',
           headers: { 'Host' => 'my.partnerdomain.com', 'Authorization' => 'Bearer tok3n' }
         ).to_return(status: 200, body: campaigns, headers: {})
 

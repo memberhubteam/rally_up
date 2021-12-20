@@ -35,7 +35,7 @@ RSpec.describe RallyUp::Partner::Token do
       expect(token.user_name).to eq(json['UserName'])
       expect(token.issued).to eq(json['.issued'])
       expect(token.expires).to eq(json['.expires'])
-      expect(RallyUp::Partner.token).to eq(json['access_token'])
+      expect(RallyUp::Partner.token.access_token).to eq(json['access_token'])
     end
 
     it 'will not set token' do

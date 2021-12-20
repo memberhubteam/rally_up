@@ -15,16 +15,26 @@ module RallyUp
         @expires = json[:'.expires']
       end
 
+      def expired?
+        expires.nil? || Time.parse(expires).utc < Time.now.utc
+      end
+
       class << self
         def retrieve(set: true)
-          json = RallyUp::Partner.json(:post, '/v1/partnertoken', params: {
-                                         grant_type: 'password',
-                                         username: RallyUp::Partner.login,
-                                         password: RallyUp::Partner.secret
-                                       })
+          json = JSON.parse(access_token_response, symbolize_names: true)
           token = new(json)
-          RallyUp::Partner.token = token.access_token if set
+          RallyUp::Partner.token = token if set
           token
+        end
+
+        def access_token_response
+          params = {
+            grant_type: 'password',
+            username: RallyUp::Partner.login,
+            password: RallyUp::Partner.secret
+          }
+          HTTP.post("https://#{RallyUp::Partner.domain}/v1/partnertoken", body: URI.encode_www_form(params))
+              .body.to_s
         end
       end
     end

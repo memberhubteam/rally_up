@@ -44,7 +44,7 @@ module RallyUp
     protected
 
     def verify!(response)
-      return if response.code.to_i == 200
+      return if [200, 201].include?(response.code.to_i)
 
       raise Error, response
     end
@@ -56,10 +56,19 @@ module RallyUp
     def initialize(response)
       @body = response.body
       @code = response.code
+      super
     end
 
     def message
       "#{code} #{body}"
+    end
+
+    def as_json
+      { error: to_s }
+    end
+
+    def to_s
+      "#{self.class}: #{message}"
     end
   end
 end

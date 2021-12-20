@@ -8,7 +8,7 @@ module RallyUp
       attr_accessor :login, :secret, :domain, :token
 
       def request(method, path, domain: RallyUp::Partner.domain, params: {}, headers: {})
-        raise 'Missing RallyUp Partner Token' if RallyUp::Partner.nil?
+        set_token if RallyUp::Partner.token.nil? || RallyUp::Partner.token.expired?
 
         super(
           method,
@@ -16,10 +16,14 @@ module RallyUp
           domain: domain,
           params: params,
           headers: headers.merge(
-            'Authorization' => "Bearer #{RallyUp::Partner.token}",
+            'Authorization' => "Bearer #{RallyUp::Partner.token.access_token}",
             'Content-Type' => 'application/x-www-form-urlencoded'
           )
         )
+      end
+
+      def set_token
+        RallyUp::Partner::Token.retrieve(set: true)
       end
     end
   end

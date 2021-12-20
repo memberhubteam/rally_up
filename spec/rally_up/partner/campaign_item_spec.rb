@@ -5,7 +5,7 @@ RSpec.describe RallyUp::Partner::CampaignItem do
 
   before do
     RallyUp::Partner.domain = 'my.partnerdomain.com'
-    RallyUp::Partner.token = 'tok3n'
+    RallyUp::Partner.token = RallyUp::Partner::Token.new(access_token: 'tok3n', '.expires': (Time.now + 3600).iso8601)
   end
 
   describe '#list' do

@@ -115,4 +115,23 @@ RSpec.describe RallyUp::Partner::Organization do
       expect(organization.id).to eq(12_345)
     end
   end
+
+  describe '#set_on_behalf_of' do
+    let(:id) { SecureRandom.uuid }
+    let(:on_behalf_of) { SecureRandom.uuid }
+    it do
+      stub_request(:post, 'https://my.partnerdomain.com/v1/partnerapi/setonbehalfaccount')
+        .with(
+          headers: { 'Host' => 'my.partnerdomain.com', 'Authorization' => 'Bearer tok3n' },
+          body: {
+            OrganizationId: id,
+            StripeOnBehalfAccountId: on_behalf_of
+          }
+        )
+        .to_return(status: 200, body: organization, headers: {})
+
+      organization = RallyUp::Partner::Organization.set_on_behalf_of(id: id, on_behalf_of: on_behalf_of)
+      expect(organization.id).to eq(id)
+    end
+  end
 end

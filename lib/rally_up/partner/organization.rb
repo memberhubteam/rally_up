@@ -68,6 +68,14 @@ module RallyUp
           json = RallyUp::Partner.json(:get, "/v1/partnerapi/organizations/#{id}")
           new(json[:Result].to_h)
         end
+
+        def set_on_behalf_of(id:, on_behalf_of:)
+          RallyUp::Partner.request(:post, '/v1/partnerapi/setonbehalfaccount', params: {
+                                     OrganizationId: id,
+                                     StripeOnBehalfAccountId: on_behalf_of
+                                   })
+          new(Id: id).to_h
+        end
       end
     end
   end

@@ -74,7 +74,7 @@ module RallyUp
                                      OrganizationId: id,
                                      StripeOnBehalfAccountId: on_behalf_of
                                    })
-          new(Id: id).to_h
+          new(Id: id)
         end
       end
     end

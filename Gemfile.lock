@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rally_up (1.1.1)
+    rally_up (1.2.0)
       http (~> 4.0)
 
 GEM
@@ -13,9 +13,8 @@ GEM
     crack (0.4.5)
       rexml
     diff-lcs (1.4.4)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
-    ffi (1.15.5)
+    domain_name (0.6.20240107)
+    ffi (1.16.3)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -50,9 +49,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.3)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.8.2)
     webmock (3.14.0)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)

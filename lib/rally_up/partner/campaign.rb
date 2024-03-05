@@ -10,7 +10,7 @@ module RallyUp
                     :organization_name, :timezone_name, :utcoffset_minutes,
                     :time_remaining_minutes, :thumbnail_url, :cta_label,
                     :management_pages, :primary_currency, :currency_symbol,
-                    :project_id, :fund_code
+                    :project_id, :fund_code, :fundraising_activity_type
 
       def initialize(json)
         @id = json[:Id]
@@ -38,6 +38,7 @@ module RallyUp
         @currency_symbol = json[:CurrencySymbol]
         @project_id = json[:ProjectId]
         @fund_code = json[:FundCode]
+        @fundraising_activity_type = json[:FundraisingActivityType]
       end
 
       class << self
